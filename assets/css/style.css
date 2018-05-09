@@ -30,7 +30,6 @@ table {
 H1 {display: block;
 	font-size: 2em;
 	margin-top: 0.67em;
-	margin-bottom: 0.67em;
 	margin-left: 0;
 	margin-right: 0;
 	font-weight: bold;	
@@ -121,7 +120,14 @@ div:not(.ports):not(.container):not(.container2):not(.bottom-left) {
 	color: #777777;
 	font-family:Arial, Helvetica, sans-serif
 }
-img {
+img:not(#portpic) {
+	float:left;
+	height: 90%;
+	width: 90%;
+	margin-right: 20px
+}
+
+#portpic {
 	float:left;
 	height: 225px;
 	width: 150px;
@@ -131,7 +137,8 @@ img {
 	padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 0px;
-    padding-left: 20px;
+	padding-left: 20px;
+	margin-top:21.44px;
 }
 #b {
 	padding-top: 00px;
@@ -169,14 +176,14 @@ footer {
     bottom: 70px;
 	left: 10px;
 	background-color:teal;
-	width: 150px;
+	width: 86.1%;
 	padding-top:10px;
 	padding-bottom:10px;
 	color:white
 }
 .ports {
 	position:relative;
-	top:-20px;
+	top:-5px;
 	margin-left:200px;
 	width:79%;
 	background-color:white;
